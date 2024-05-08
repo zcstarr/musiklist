@@ -16,6 +16,20 @@
   }
 }
 
+@media (min-width: 500px){
+  .navbar {
+    height: 4rem;
+    background-color: aqua;
+  }
+}
+
+@media (min-width: 800px){
+  .navbar {
+    height: 2rem;
+    background-color: orangered;
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
